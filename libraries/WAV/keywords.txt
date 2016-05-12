@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map SPI
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+wav			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin		KEYWORD2
+play		KEYWORD2
+record		KEYWORD2
+decode		KEYWORD2
+encode		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+WAV_DECODING	LITERAL1
+WAV_DECODE_END	LITERAL1
+WAV_ENCODING	LITERAL1
+WAV_ENCODE_END	LITERAL1
+

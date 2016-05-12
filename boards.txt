@@ -1,0 +1,49 @@
+
+DFRDuino.name=DFRduino M0 MainBoard
+DFRDuino.build.board=DFRobot_Nuvoton_M0
+
+DFRDuino.upload.tool=avrdude
+DFRDuino.upload.protocol=wiring
+DFRDuino.upload.maximum_size=56320
+DFRDuino.upload.maximum_data_size=56320
+DFRDuino.upload.speed=115200
+DFRDuino.upload.disable_flushing=true
+DFRDuino.upload.use_1200bps_touch=true
+DFRDuino.upload.wait_for_upload_port=true
+
+DFRDuino.build.mcu=cortex-m0
+DFRDuino.build.simulator=ATmega2560
+DFRDuino.build.f_cpu=72000000L
+DFRDuino.build.usb_product="Arduino Nuvoton"
+DFRDuino.build.branch=__NUC123__
+DFRDuino.build.core=NUC123
+DFRDuino.build.variant=NUC123
+DFRDuino.build.extra_flags=-mthumb
+DFRDuino.build.ldscript=linker_scripts/gcc/NUC123.ld
+DFRDuino.build.variant_system_include= "-I{build.system.path}/CMSIS/CMSIS/Include" "-I{runtime.hardware.path}/Nuvoton/NUC123_SDK/Include" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/StdDriver/inc" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/Device/Nuvoton/NUC123/Include"
+	
+###############################################################
+
+BlunoM0.name=Bluno M0 MainBoard
+BlunoM0.build.board=DFRobot_Nuvoton_M0
+
+BlunoM0.upload.tool=avrdude
+BlunoM0.upload.protocol=wiring
+BlunoM0.upload.maximum_size=60416
+BlunoM0.upload.maximum_data_size=60416
+BlunoM0.upload.speed=115200
+BlunoM0.upload.disable_flushing=true
+BlunoM0.upload.use_1200bps_touch=false
+BlunoM0.upload.wait_for_upload_port=flase
+
+BlunoM0.build.mcu=cortex-m0
+BlunoM0.build.simulator=ATmega2560
+BlunoM0.build.f_cpu=72000000L
+BlunoM0.build.usb_product="BlunoM0"
+BlunoM0.build.branch=__BlunoM0__
+BlunoM0.build.core=NUC123
+BlunoM0.build.variant=BlunoM0
+BlunoM0.build.extra_flags=-mthumb
+BlunoM0.build.ldscript=linker_scripts/gcc/BlunoM0.ld
+BlunoM0.build.variant_system_include= "-I{build.system.path}/CMSIS/CMSIS/Include" "-I{runtime.hardware.path}/Nuvoton/NUC123_SDK/Include" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/StdDriver/inc" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/Device/Nuvoton/NUC123/Include"
+##############################################################
