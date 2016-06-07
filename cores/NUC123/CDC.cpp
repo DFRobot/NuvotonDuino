@@ -143,7 +143,7 @@ Serial_::operator bool() {
 #if defined(__NUC123__)
 Serial_ Serial;
 #elif  defined(__BlunoM0__)
-Serial_ USBSerial;
+//Serial_ USBSerial;
 #endif
 //#endif
 

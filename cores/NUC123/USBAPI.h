@@ -78,7 +78,7 @@ public:
 #if defined(__NUC123__)
 extern Serial_ Serial;
 #elif defined(__BlunoM0__)
-extern Serial_ USBSerial;
+//extern Serial_ USBSerial;
 #endif
 
 #define HAVE_CDCSERIAL
