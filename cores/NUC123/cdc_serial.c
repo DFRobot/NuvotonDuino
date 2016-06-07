@@ -8,7 +8,7 @@
 
 /*!<Includes */
 #include <string.h>
-#include "nuc123.h"
+#include "NUC123.h"
 #include "usbd.h"
 #include "cdc_serial.h"
 #include "pins_arduino.h"

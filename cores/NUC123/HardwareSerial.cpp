@@ -38,11 +38,11 @@
 
 
 ring_buffer rx_buffer1 = { { 0 }, 0, 0};  /* for UAR1_IRQ */
-HardwareSerial Serial1(UART0, &rx_buffer1);
 
 #if defined(__NUC123__)
+HardwareSerial Serial1(UART0, &rx_buffer1);
 #elif defined(__BlunoM0__)
-HardwareSerial &Serial = Serial1;
+HardwareSerial Serial(UART0, &rx_buffer1);
 #endif
 
 ring_buffer rx_buffer2 = { { 0 }, 0, 0};  /* for UAR1_IRQ */
@@ -87,7 +87,11 @@ void serialEvent() __attribute__((weak));
 
 void serialEventRun(void)
 {
-    if (Serial1.available()) serialEvent();
+#if defined(__NUC123__)
+	if (Serial1.available()) serialEvent();
+#elif defined(__BlunoM0__)
+	if (Serial.available()) serialEvent();
+#endif
 }
 
 

@@ -1,7 +1,7 @@
 
 //#include <stdio.h>
 #include "Arduino.h"
-#include <nuc123.h>
+#include <NUC123.h>
 #include "cdc_serial.h"
 //#include "USBAPI.h"
 

@@ -9,7 +9,6 @@ Servo myservo2;  // create servo object to control a servo
 void setup() 
 { 
   Serial.begin(115200);
-  Serial1.begin(115200);
   Serial2.begin(115200);
  // while(!Serial);
   pinMode(4,OUTPUT);
@@ -83,6 +82,5 @@ void loop()
   cb();
   count++;
   Serial.println(count);
-  Serial1.println(count);
   Serial2.println(count);
 } 

@@ -23,7 +23,7 @@
 #include <inttypes.h>
 
 #include "Arduino.h"
-#include <nuc123.h>
+#include <NUC123.h>
 #include "delay.h"
 
 //================================================================================

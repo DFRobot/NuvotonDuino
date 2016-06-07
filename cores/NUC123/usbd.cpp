@@ -10,7 +10,7 @@
 *****************************************************************************/
 #include <stdio.h>
 #include <string.h>
-#include "nuc123.h"
+#include "NUC123.h"
 #include "cdc_serial.h"
 #include "delay.h"
 

@@ -20,7 +20,7 @@ DFRDuino.build.core=NUC123
 DFRDuino.build.variant=NUC123
 DFRDuino.build.extra_flags=-mthumb
 DFRDuino.build.ldscript=linker_scripts/gcc/NUC123.ld
-DFRDuino.build.variant_system_include= "-I{build.system.path}/CMSIS/CMSIS/Include" "-I{runtime.hardware.path}/Nuvoton/NUC123_SDK/Include" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/StdDriver/inc" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/Device/Nuvoton/NUC123/Include"
+DFRDuino.build.variant_system_include= "-I{build.system.path}/CMSIS/CMSIS/Include" "-I{build.system.path}/../NUC123_SDK/Include" "-I{build.system.path}/../system/CMSIS/StdDriver/inc" "-I{build.system.path}/../system/CMSIS/Device/Nuvoton/NUC123/Include"
 	
 ###############################################################
 
@@ -45,5 +45,5 @@ BlunoM0.build.core=NUC123
 BlunoM0.build.variant=BlunoM0
 BlunoM0.build.extra_flags=-mthumb
 BlunoM0.build.ldscript=linker_scripts/gcc/BlunoM0.ld
-BlunoM0.build.variant_system_include= "-I{build.system.path}/CMSIS/CMSIS/Include" "-I{runtime.hardware.path}/Nuvoton/NUC123_SDK/Include" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/StdDriver/inc" "-I{runtime.hardware.path}/Nuvoton/system/CMSIS/Device/Nuvoton/NUC123/Include"
+BlunoM0.build.variant_system_include= "-I{build.system.path}/CMSIS/CMSIS/Include" "-I{build.system.path}/../NUC123_SDK/Include" "-I{build.system.path}/../system/CMSIS/StdDriver/inc" "-I{build.system.path}/../system/CMSIS/Device/Nuvoton/NUC123/Include"
 ##############################################################

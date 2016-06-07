@@ -12,7 +12,7 @@
 #ifndef __PDMA_H__
 #define __PDMA_H__
 
-#include "nuc123.h"
+#include "NUC123.h"
 
 
 /** @addtogroup Standard_Driver Standard Driver

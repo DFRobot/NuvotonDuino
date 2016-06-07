@@ -90,10 +90,10 @@ private:
 };
 extern HardwareSerial Serial2;
 #if defined(__NUC123__)
-#elif defined(__BlunoM0__)
-extern HardwareSerial &Serial;
-#endif
 extern HardwareSerial Serial1;
+#elif defined(__BlunoM0__)
+extern HardwareSerial Serial;
+#endif
 extern void serialEventRun(void) __attribute__((weak));
 
 #endif

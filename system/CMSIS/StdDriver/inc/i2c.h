@@ -12,7 +12,7 @@
 #ifndef __I2C_H__
 #define __I2C_H__
 
-#include "nuc123.h"
+#include "NUC123.h"
 
 #ifdef __cplusplus
 extern "C"

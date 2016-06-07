@@ -41,7 +41,7 @@
  *
  */
 
-#include "nuc123.h"
+#include "NUC123.h"
 
 /* Initialize segments */
 extern uint32_t _sfixed;

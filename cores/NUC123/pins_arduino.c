@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "nuc123.h"
+#include "NUC123.h"
 #include "pins_arduino.h"
 
 #if defined(__NUC123__)
@@ -21,7 +21,7 @@ const GPIOPinDescription GPIO_Desc[]=
 	{PB,BIT8  ,{(uint32_t)&SYS->GPB_MFP, SYS_GPB_MFP_PB8_Msk, NULL,0}},  //11   //PWM4 Soft
 
 	{PC,BIT1  ,{(uint32_t)&SYS->GPC_MFP, SYS_GPC_MFP_PC1_Msk, (uint32_t)&SYS->ALT_MFP  ,SYS_ALT_MFP_PC1_Msk}},  //12   //I2S_BCLK
-	{PB,BIT14 ,{(uint32_t)&SYS->GPB_MFP, SYS_GPB_MFP_PB14_Msk, NULL,0}},  //13   //PWM4 Soft
+	{PB,BIT14 ,{(uint32_t)&SYS->GPB_MFP, SYS_GPB_MFP_PB14_Msk, NULL,0}},  //13   //PWM5 Soft
 	{PA,BIT10 ,{(uint32_t)&SYS->GPA_MFP, SYS_GPA_MFP_PA10_Msk, (uint32_t)&SYS->ALT_MFP  ,SYS_ALT_MFP_PA10_Msk}},  //14   //SPI1_MISO
 	{PA,BIT11 ,{(uint32_t)&SYS->GPA_MFP, SYS_GPA_MFP_PA11_Msk, (uint32_t)&SYS->ALT_MFP  ,SYS_ALT_MFP_PA11_Msk}},  //15   //SPI1_SCK
 

@@ -11,7 +11,7 @@
 #ifndef _USB_H
 #define _USB_H
 
-#include "nuc123.h"
+#include "NUC123.h"
 
 /** @addtogroup NUC123_MACRO_FUNC NUC123 IPs Macro
   * @{

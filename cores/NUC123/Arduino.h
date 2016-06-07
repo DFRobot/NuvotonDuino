@@ -37,7 +37,7 @@ extern "C"{
 
 // Includes Nuvoton CMSIS
 
-#include "nuc123.h"
+#include "NUC123.h"
 
 extern volatile uint8_t init_flag;	
 

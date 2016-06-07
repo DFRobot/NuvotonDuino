@@ -1,4 +1,4 @@
-#include <nuc123.h>
+#include <NUC123.h>
 #include <inttypes.h>
 #include "interrupt.h"
 #include "USBAPI.h"
